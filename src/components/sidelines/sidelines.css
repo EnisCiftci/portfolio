@@ -1,0 +1,65 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.sidebar:after{
+    content: "";
+    width: 1px;
+    background: var(--color-primary);
+}
+
+.sidebar > a{
+    position: relative;
+    top: 0;
+    transition: ease 200ms;
+}
+
+.sidebar > a:hover{
+    top: -0.3rem;
+}
+
+/* =========================== LEFT =========================== */
+.left{
+    left: var(--sidebar-pos-l);
+}
+
+.left:after{
+    height: 2rem;
+}
+
+/* =========================== RIGHT =========================== */
+.right{
+    right: var(--sidebar-pos-l);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.right:after{
+    height: 2.3rem;
+}
+
+.right > a {
+    writing-mode: vertical-lr;
+}
+
+/* =========================== MEDIA QUERIES =========================== */
+@media screen and (max-width: 1024px){
+    .left{
+        left: var(--sidebar-pos-m);
+    }
+
+    .right{
+        right: var(--sidebar-pos-m);
+    }
+}
+
+@media screen and (max-width: 760px){
+    .left,.right{
+        display: none;
+    }
+}

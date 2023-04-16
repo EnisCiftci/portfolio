@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root{
+    --color-bg: #1f1f38;
+    --color-primary: #ffad32;
+    --color-secondary: rgba(255,255,255,0.5);
+    --color-white: #ffffff;
+
+    --container-width-l: 56%;
+    --container-width-m: 85%;
+    --container-width-s: 90%;
+
+    --sidebar-pos-l: 7%;
+    --sidebar-pos-m: 2%;
+
+    --transition: all 400ms ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}
+
+/* =========================== GENERAL STYLES =========================== */
+.wrapper{
+    width: var(--container-width-l);
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 300;
+}
+
+section{
+    margin-top: 8rem;
+}
+
+.text-secondary{
+    color: var(--color-secondary);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+/* =========================== MEDIA QUERIES =========================== */
+@media screen and (max-width: 1024px){
+    .wrapper{
+        width: var(--container-width-m);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .wrapper{
+        width: var(--container-width-s);
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}
