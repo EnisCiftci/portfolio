@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./about.css"
+import "./about.css"
 import portrait from '../../assets/portrait.png'
 
 export default function About() {

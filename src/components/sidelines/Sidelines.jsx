@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./sidelines.css"
+import "./sidelines.css"
 
 export default function Sidelines() {
     return (
