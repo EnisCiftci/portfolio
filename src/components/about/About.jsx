@@ -4,24 +4,24 @@ import portrait from '../../assets/portrait.png'
 
 export default function About() {
     return (
-        <section>
-            <div className={"upper"}>
-                <div className={"greeting"}>
+        <section id={"about"} className={"about_wrapper"}>
+            <div className={"about_upper"}>
+                <div className={"about_greeting"}>
                     <div>
                         <h3 className={"text-secondary"}>Hello, I'm</h3>
                         <h1>Enis Ciftci</h1>
                     </div>
                 </div>
-                <div className={"portrait"}>
+                <div className={"about_portrait"}>
                     <img src={portrait} alt={"ERR"}/>
                 </div>
             </div>
-            <div className={"lower"}>
-                <div className={"buttons"}>
-                    <a href={"#"} className={"btn btn-primary"}>Contact Me</a>
-                    <a href={"#"} className={"btn"}>Download CV</a>
+            <div className={"about_lower"}>
+                <div className={"about_buttons"}>
+                    <a href={"#"} className={"about_btn about_btn-primary"}>Contact Me</a>
+                    <a href={"#"} className={"about_btn"}>Download CV</a>
                 </div>
-                <div className={"text"}>
+                <div className={"about_text"}>
                     <p>
                         <span className={"accent"}>Merhaba!</span> My name is Enis and I'm a 21-year-old
                         student at Ruhr-Universität Bochum majoring in applied computer science.
@@ -39,7 +39,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className={"skills"}>
+            <div className={"about_skills"}>
                 <ul>
                     <li><span className={"accent"}>></span>FullStack</li>
                 </ul>

@@ -1,4 +1,5 @@
 header{
+    z-index: 1000;
     position: fixed;
     top: 0;
     display: flex;
@@ -10,7 +11,7 @@ header{
     backdrop-filter: blur(10px);
 }
 
-.list{
+.navbar_list{
     display: flex;
     gap: 2rem;
 }

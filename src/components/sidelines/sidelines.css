@@ -1,4 +1,4 @@
-.sidebar{
+.sidelines_sidebar{
     display: flex;
     height: 270px;
     flex-direction: column;
@@ -8,36 +8,36 @@
     bottom: 0;
 }
 
-.sidebar:after{
+.sidelines_sidebar:after{
     content: "";
     width: 1px;
     height: 100%;
     background: var(--color-primary);
 }
 
-.sidebar > a{
+.sidelines_sidebar > a{
     position: relative;
     top: 0;
     transition: ease 200ms;
 }
 
-.sidebar > a:hover{
+.sidelines_sidebar > a:hover{
     top: -0.3rem;
 }
 
 /* =========================== LEFT =========================== */
-.left{
+.sidelines_left{
     left: var(--sidebar-pos-l);
 }
 
 /* =========================== RIGHT =========================== */
-.right{
+.sidelines_right{
     right: var(--sidebar-pos-l);
     font-weight: 300;
     font-size: 0.9rem;
 }
 
-.right > a {
+.sidelines_right > a {
     height: 300px;
     font-size: medium;
     writing-mode: vertical-lr;
@@ -45,17 +45,17 @@
 
 /* =========================== MEDIA QUERIES =========================== */
 @media screen and (max-width: 1024px){
-    .left{
+    .sidelines_left{
         left: var(--sidebar-pos-m);
     }
 
-    .right{
+    .sidelines_right{
         right: var(--sidebar-pos-m);
     }
 }
 
 @media screen and (max-width: 760px){
-    .left,.right{
+    .sidelines_left,.sidelines_right{
         display: none;
     }
 }

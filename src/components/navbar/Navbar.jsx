@@ -4,10 +4,10 @@ import "./navbar.css"
 export default function Navbar() {
     return (
         <header>
-            <div className={"logo"}>
+            <div className={"navbar_logo"}>
                 <p>Enis</p>
             </div>
-            <div className={"list"}>
+            <div className={"navbar_list"}>
                 <a href={"#about"}>
                     <span>01. </span>About
                 </a>
