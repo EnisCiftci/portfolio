@@ -1,6 +1,21 @@
-<svg width="24" height="24" viewBox="0 0 153 259" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Icon">
-<path id="Upper" d="M1 123V1H152V40H35V108H82.5V123H1Z" fill="#FFAD32" stroke="#FFAD32"/>
-<path id="Lower" d="M1 136L1 258H152V219L35 219L35 151H82.5V136H1Z" stroke="#FFAD32"/>
-</g>
+<svg width="36" height="36" viewBox="0 0 165 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 246.5V132V131H94V141.5H44V216.5H164V246.5H14Z" stroke="#FFAD32" stroke-width="2"/>
+<path d="M14 246.5L44 216.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M14 217L104 127" stroke="#FFAD32" stroke-width="2"/>
+<path d="M4 242L74 172" stroke="#FFAD32" stroke-width="2"/>
+<path d="M14 202L104 112" stroke="#FFAD32" stroke-width="2"/>
+<path d="M1 198L101 98" stroke="#FFAD32" stroke-width="2"/>
+<path d="M4 152L54 102" stroke="#FFAD32" stroke-width="2"/>
+<path d="M14 156L104 66" stroke="#FFAD32" stroke-width="2"/>
+<path d="M14 171L74 111" stroke="#FFAD32" stroke-width="2"/>
+<path d="M31 289L131 189" stroke="#FFAD32" stroke-width="2"/>
+<path d="M89 246.5L119 216.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M104 247L164 187" stroke="#FFAD32" stroke-width="2"/>
+<path d="M119 246.5L149 216.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M94 287L164 217" stroke="#FFAD32" stroke-width="2"/>
+<path d="M149 246.5L164 231.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M59 246.5L89 216.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M31 259L101 189" stroke="#FFAD32" stroke-width="2"/>
+<path d="M29 246.5L59 216.5" stroke="#FFAD32" stroke-width="2"/>
+<path d="M94 116V101H44V31H164V1H14V116H94Z" fill="#FFAD32" stroke="#FFAD32"/>
 </svg>
