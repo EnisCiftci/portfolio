@@ -23,11 +23,12 @@
     list-style: none;
     text-decoration: none;
     outline-color: transparent;
-    outline: 1px solid rgba(255, 0, 0, 0.20);
+    /*outline: 1px solid rgba(255, 0, 0, 0.20);*/
 }
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
 }
 
 ::-webkit-scrollbar{
