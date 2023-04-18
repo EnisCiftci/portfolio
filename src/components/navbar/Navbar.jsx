@@ -1,11 +1,12 @@
 import React from 'react'
 import "./navbar.css"
+import icon from '../../assets/icon.svg'
 
 export default function Navbar() {
     return (
         <header>
             <div className={"navbar_logo"}>
-                <p>Enis</p>
+                <img src={icon} alt={"ERR"} className={"navbar_icon"}></img>
             </div>
             <div className={"navbar_list"}>
                 <a href={"#about"}>

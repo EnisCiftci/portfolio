@@ -41,28 +41,28 @@ export default function About() {
             </div>
             <div className={"about_skills"}>
                 <ul>
-                    <li><span className={"accent"}>></span>FullStack</li>
+                    <li><span className={"accent"}>&gt;</span>FullStack</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>Java</li>
+                    <li><span className={"accent"}>&gt;</span>Java</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>Swift</li>
+                    <li><span className={"accent"}>&gt;</span>Swift</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>Kotlin</li>
+                    <li><span className={"accent"}>&gt;</span>Kotlin</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>Angular</li>
+                    <li><span className={"accent"}>&gt;</span>Angular</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>React</li>
+                    <li><span className={"accent"}>&gt;</span>React</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>C#</li>
+                    <li><span className={"accent"}>&gt;</span>C#</li>
                 </ul>
                 <ul>
-                    <li><span className={"accent"}>></span>SQL</li>
+                    <li><span className={"accent"}>&gt;</span>SQL</li>
                 </ul>
             </div>
 
