@@ -1,0 +1,61 @@
+.project{
+    position: relative;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.project_left{
+    justify-content: flex-end;
+}
+
+.project_img{
+    width: 100%;
+}
+
+.image_link{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.image_overlay{
+    display: flex;
+    width: 50%;
+}
+
+.project_content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 55%;
+    right: 0;
+    text-align: right;
+    gap: 0.8rem;
+}
+
+.content_left{
+    left: 0;
+}
+
+.content_left .project_title,.project_desc{
+    text-align: left;
+}
+
+.content_left .project_tags{
+    justify-content: flex-start;
+}
+
+.project_desc{
+    padding: 20px 10px;
+    background-color: var(--color-bg);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+}
+
+.project_tags{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.6rem;
+}
+
+

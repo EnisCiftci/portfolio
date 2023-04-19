@@ -27,6 +27,12 @@ a > span {
     color: var(--color-white);
 }
 
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* =========================== MEDIA QUERIES =========================== */
 @media screen and (max-width: 1024px){
     .list{

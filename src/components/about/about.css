@@ -42,7 +42,7 @@
     transform: rotate(25deg) translateX(-20px) translateY(10px);
 }
 
-img{
+.about_img{
     z-index: 1;
     height: 200px;
 }
