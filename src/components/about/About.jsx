@@ -18,7 +18,7 @@ export default function About() {
             </div>
             <div className={"about_lower"}>
                 <div className={"about_buttons"}>
-                    <a href={"#"} className={"about_btn about_btn-primary"}>Contact Me</a>
+                    <a href={"#contact"} className={"about_btn about_btn-primary"}>Contact Me</a>
                     <a href={"#"} className={"about_btn"}>Download CV</a>
                 </div>
                 <div className={"about_text"}>
@@ -29,13 +29,14 @@ export default function About() {
                         My passion for coding started at a young age. I learned Java in school and fell in
                         love with it right away, creating a range of projects for both school and for myself.
                         <br></br>
-                        Throughout my time at university, I've sharpened my Java skills and have also gained
-                        experience in a variety of other programming languages and and developed and adopted solid coding
-                        ethics and practices. I'm always trying to further my knowledge and my skill set, and I'm
+                        Throughout my time at university, I've sharpened my programming skills and gained
+                        experience in a variety of other programming languages while developing and adopting good coding
+                        ethics and practices.
+                        <br></br>
+                        I'm always trying to further my knowledge and my skill set, and I'm
                         interested in where my love of coding may lead me in the future.
                         <br></br>
-                        Thank you for taking the time to visit my portfolio website, and I hope you enjoy exploring
-                        my projects and learning more about me.
+                        Tip: Dark-Mode (DarkReader) might lead to *some* problems
                     </p>
                 </div>
             </div>

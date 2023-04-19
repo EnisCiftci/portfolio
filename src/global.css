@@ -111,13 +111,13 @@ a:hover {
 
 /* =========================== MEDIA QUERIES =========================== */
 @media screen and (max-width: 1024px){
-    .wrapper{
+    .app_wrapper{
         width: var(--container-width-m);
     }
 }
 
 @media screen and (max-width: 760px){
-    .wrapper{
+    .app_wrapper{
         width: var(--container-width-s);
     }
 }

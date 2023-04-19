@@ -14,7 +14,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className={"project_content"}>
-                    <a className={"project_title accent"}>TogethAR</a>
+                    <a className={"project_title accent"}>TogethAR (Git-repo WIP)</a>
                     <p className={"project_desc"}>iPad App for a collaborative AR-Session with collaborative tools and a lobby system</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>XCode</li>
@@ -27,7 +27,7 @@ export default function Projects() {
 
             <div className={"project project_left"}>
                 <div className={"project_content content_left"}>
-                    <p className={"project_title accent"}>Halal Hub</p>
+                    <p className={"project_title accent"}>Taqwa App (Currently WIP)</p>
                     <p className={"project_desc"}>Islamic Companion-App that will help muslim with their everyday duties</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>Kotlin</li>

@@ -10,12 +10,13 @@
     left: calc(50% - 1px);
     position: absolute;
     width: 2px;
-    height: 1100px;
+    height: 0;
     display: flex;
     flex-direction: column;
 }
 
-.experience_line::after,.experience_line::before{
+
+.experience_line::before,.experience_line_after::after{
     position: absolute;
     left: 50%;
     content: "";
@@ -32,7 +33,12 @@
 
 /* =========================== BUBBLES =========================== */
 
+.timeline_show{
+    opacity: 0;
+}
+
 .timeline_section{
+    transition: opacity 1.5s;
     position: relative;
     margin: 75px 0;
     width: auto;
@@ -45,10 +51,34 @@
 
 .timeline_desc{
     margin-top: 15px;
+    max-width: 340px;
 }
 
 .timeline_title{
     color: var(--color-primary);
+}
+
+.timeline_title a {
+    display: inline-block;
+    position: relative;
+}
+
+.timeline_title a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-white);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.timeline_title a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 /* =========================== LEFT =========================== */

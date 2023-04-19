@@ -4,7 +4,7 @@ import icon from '../../assets/icon.svg'
 
 export default function Navbar() {
     return (
-        <header>
+        <header id={"navbar"}>
             <div className={"navbar_logo"}>
                 <img src={icon} alt={"ERR"} className={"navbar_icon"}></img>
             </div>
