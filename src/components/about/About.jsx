@@ -4,7 +4,7 @@ import portrait from '../../assets/portrait.png'
 
 export default function About() {
     return (
-        <section id={"about"} className={"about_wrapper"}>
+        <section id={"about"} className={"about_wrapper"} style={{transition: "all ease-in-out 2s"}}>
             <div className={"about_upper"}>
                 <div className={"about_greeting"}>
                     <div>
@@ -30,7 +30,7 @@ export default function About() {
                         love with it right away, creating a range of projects for both school and for myself.
                         <br></br>
                         Throughout my time at university, I've sharpened my programming skills and gained
-                        experience in a variety of other programming languages while developing and adopting good coding
+                        experience in a variety of programming languages while also developing and adopting good coding
                         ethics and practices.
                         <br></br>
                         I'm always trying to further my knowledge and my skill set, and I'm

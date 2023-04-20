@@ -6,7 +6,9 @@
     gap: 0.8rem;
     position: fixed;
     bottom: 0;
+    transition: all ease-in-out 1.5s;
 }
+
 
 .sidelines_sidebar:after{
     content: "";
@@ -27,14 +29,26 @@
 
 /* =========================== LEFT =========================== */
 .sidelines_left{
+    left: -50px;
+    opacity: 0;
+}
+
+.sidelines_left_show{
+    opacity: 1;
     left: var(--sidebar-pos-l);
 }
 
 /* =========================== RIGHT =========================== */
 .sidelines_right{
-    right: var(--sidebar-pos-l);
+    right: -50px;
     font-weight: 300;
     font-size: 0.9rem;
+    opacity: 0;
+}
+
+.sidelines_right_show{
+    right: var(--sidebar-pos-l);
+    opacity: 1;
 }
 
 .sidelines_right > a {

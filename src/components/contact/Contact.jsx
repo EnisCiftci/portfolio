@@ -28,8 +28,10 @@ export default function Contact() {
             <h2 className={"title-right"}>Contact</h2>
             <div className={"contact_wrapper"}>
                 <div className={"contact_left"}>
-                    <p className={"contact_text"}>I am always looking for new and better opportunities.
-                        If you feel like I fit the vibe and have the skills necessary than feel free to message me anytime!</p>
+                    <p className={"contact_text"}>I am always looking for new and better opportunities.<br></br>
+                        If you believe that my skills and experience align with your organization's vision and culture,
+                        please don't hesitate to reach out to me at any time. I would welcome the chance to discuss
+                        potential collaborations and learn more about what you have to offer!</p>
                     <div className={"email_button"}>
                         <Mail/>
                         <p>Email</p>

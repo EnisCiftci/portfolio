@@ -28,7 +28,8 @@ export default function Projects() {
             <div className={"project project_left"}>
                 <div className={"project_content content_left"}>
                     <p className={"project_title accent"}>Taqwa App (Currently WIP)</p>
-                    <p className={"project_desc"}>Islamic Companion-App that will help muslim with their everyday duties</p>
+                    <p className={"project_desc"}>Islamic Companion-App that helps muslims with daily spiritual practices
+                                                    and helps them fulfill their duties.</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>Kotlin</li>
                         <li className={"text-secondary"}>Android Views</li>

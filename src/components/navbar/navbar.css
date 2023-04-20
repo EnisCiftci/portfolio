@@ -1,7 +1,7 @@
 header{
     z-index: 1000;
     position: fixed;
-    top: 0;
+    top: -100px;
     display: flex;
     height: 100px;
     width: 100%;
@@ -12,6 +12,12 @@ header{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transition: var(--transition);
+    opacity: 0;
+}
+
+.navbar_show{
+    top: 0;
+    opacity: 1;
 }
 
 .navbar_scrolled{

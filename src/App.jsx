@@ -8,6 +8,13 @@ import {useEffect} from "react";
 
 export default function App() {
 
+    let offset = (window.innerHeight - 100)
+
+    //Animations
+    let sidebar_left
+    let sidebar_right
+    let sections
+
     //Experience
     let timeline
     let oldScrollExperience = 0
@@ -23,9 +30,34 @@ export default function App() {
         timeline = document.getElementById("timeline")
         timelineSections = document.getElementsByClassName("timeline_section")
         navbar = document.getElementById("navbar")
+        sidebar_left = document.getElementsByClassName("sidelines_left")[0]
+        sidebar_right = document.getElementsByClassName("sidelines_right")[0]
+        sections = document.getElementsByTagName("section")
+
+        sections[0].classList.add("section_show")
+
+        setTimeout(() => {
+            navbar.classList.add("navbar_show")
+        }, 1500)
+
+        setTimeout(() => {
+            sidebar_left.classList.add("sidelines_left_show")
+            sidebar_right.classList.add("sidelines_right_show")
+        }, 1500)
     })
 
-    window.onscroll = function() {scrollFunctionNavbar(); scrollFunctionExperience()};
+    window.onscroll = function() {scrollFunctionNavbar(); scrollFunctionExperience(); scrollFunctionSection()};
+
+    function scrollFunctionSection(){
+        for(let i = 1; i < sections.length; i++){
+            let sectionTop = sections[i].getBoundingClientRect().top
+            let sectionStart = sectionTop - offset
+
+            if(sectionStart < 0){
+                sections[i].classList.add("section_show")
+            }
+        }
+    }
 
     function scrollFunctionNavbar() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -45,7 +77,6 @@ export default function App() {
     function scrollFunctionExperience() {
         if(!finished){
             let timelineTop = timeline.getBoundingClientRect().top
-            let offset = (window.innerHeight - 100)
             let startY = timelineTop - offset
 
             if(startY < 0 && startY >= -maxLength){

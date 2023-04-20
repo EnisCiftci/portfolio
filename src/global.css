@@ -57,7 +57,13 @@ h1{
 }
 
 section{
+    opacity: 0;
     margin-top: 8rem;
+    transition: all ease-in-out 1s;
+}
+
+.section_show{
+    opacity: 1;
 }
 
 .text-secondary{
