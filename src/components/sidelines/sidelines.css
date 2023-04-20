@@ -68,6 +68,16 @@
     }
 }
 
+@media screen and (max-width: 885px){
+    .sidelines_left{
+        left: var(--sidebar-pos-s);
+    }
+
+    .sidelines_right{
+        right: var(--sidebar-pos-s);
+    }
+}
+
 @media screen and (max-width: 760px){
     .sidelines_left,.sidelines_right{
         display: none;

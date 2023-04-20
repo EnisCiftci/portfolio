@@ -6,11 +6,13 @@
     --color-white: #ffffff;
 
     --container-width-l: 56%;
-    --container-width-m: 85%;
-    --container-width-s: 90%;
+    --container-width-m: 70%;
+    --container-width-s: 80%;
+    --container-width-xs: 90%;
 
     --sidebar-pos-l: 5%;
     --sidebar-pos-m: 2%;
+    --sidebar-pos-s: 1%;
 
     --transition: all 400ms ease;
 }
@@ -84,11 +86,18 @@ a:hover {
 }
 
 .title-right{
+    position: relative;
+    left: -500px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 30px;
     color: var(--color-primary);
+    transition: all ease-in-out 800ms;
+}
+
+.title_show_right{
+    left: 0;
 }
 
 .title-right:after{
@@ -100,11 +109,18 @@ a:hover {
 }
 
 .title-left{
+    position: relative;
+    right: -500px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 30px;
     color: var(--color-primary);
+    transition: all ease-in-out 800ms;
+}
+
+.title_show_left{
+    right: 0;
 }
 
 .title-left:before{
@@ -116,9 +132,21 @@ a:hover {
 }
 
 /* =========================== MEDIA QUERIES =========================== */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1260px){
     .app_wrapper{
         width: var(--container-width-m);
+    }
+}
+
+@media screen and (max-width: 1012px){
+    .app_wrapper{
+        width: var(--container-width-s);
+    }
+}
+
+@media screen and (max-width: 885px){
+    .app_wrapper{
+        width: var(--container-width-xs);
     }
 }
 

@@ -14,6 +14,11 @@ export default function App() {
     let sidebar_left
     let sidebar_right
     let sections
+    let titles_right
+    let titles_left
+    let projects
+    let contact_left
+    let contact_right
 
     //Experience
     let timeline
@@ -33,8 +38,15 @@ export default function App() {
         sidebar_left = document.getElementsByClassName("sidelines_left")[0]
         sidebar_right = document.getElementsByClassName("sidelines_right")[0]
         sections = document.getElementsByTagName("section")
+        titles_right = document.getElementsByClassName("title-right")
+        titles_left = document.getElementsByClassName("title-left")[0]
+        projects = document.getElementsByClassName("project")
+        contact_left = document.getElementsByClassName("contact_left")[0]
+        contact_right = document.getElementsByClassName("contact_right")[0]
 
-        sections[0].classList.add("section_show")
+        setTimeout(() => {
+            sections[0].classList.add("section_show")
+        }, 500)
 
         setTimeout(() => {
             navbar.classList.add("navbar_show")
@@ -49,6 +61,42 @@ export default function App() {
     window.onscroll = function() {scrollFunctionNavbar(); scrollFunctionExperience(); scrollFunctionSection()};
 
     function scrollFunctionSection(){
+        let contactTopLeft = contact_left.getBoundingClientRect().top
+        let contactStartLeft = contactTopLeft - offset
+        if(contactStartLeft < 0){
+            contact_left.classList.add("contact_left_show")
+        }
+
+        let contactTopRight = contact_right.getBoundingClientRect().top
+        let contactStartRight = contactTopRight - offset
+        if(contactStartRight < 0){
+            contact_right.classList.add("contact_right_show")
+        }
+
+        let titleTop = titles_left.getBoundingClientRect().top
+        let titleStart = titleTop - offset
+        if(titleStart < 0){
+            titles_left.classList.add("title_show_left")
+        }
+
+        for (let i = 0; i < projects.length; i++){
+            let projectTop = projects[i].getBoundingClientRect().top
+            let projectStart = projectTop - offset
+
+            if(projectStart < 0){
+                projects[i].classList.add("project_show")
+            }
+        }
+
+        for(let i = 0; i < titles_right.length; i++){
+            let titleTop = titles_right[i].getBoundingClientRect().top
+            let titleStart = titleTop - offset
+
+            if(titleStart < 0){
+                titles_right[i].classList.add("title_show_right")
+            }
+        }
+
         for(let i = 1; i < sections.length; i++){
             let sectionTop = sections[i].getBoundingClientRect().top
             let sectionStart = sectionTop - offset
@@ -57,6 +105,8 @@ export default function App() {
                 sections[i].classList.add("section_show")
             }
         }
+
+
     }
 
     function scrollFunctionNavbar() {

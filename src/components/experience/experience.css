@@ -137,3 +137,10 @@
     border-radius: 50%;
     background-color: var(--color-white);
 }
+
+/* =========================== MEDIA QUERIES =========================== */
+@media screen and (max-width: 1012px){
+    .timeline_section{
+        width: 300px;
+    }
+}

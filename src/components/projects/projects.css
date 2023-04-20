@@ -1,8 +1,16 @@
 .project{
     position: relative;
+    opacity: 0;
+    bottom: -200px;
     margin-top: 5rem;
     display: flex;
     align-items: center;
+    transition: var(--transition);
+}
+
+.project_show{
+    opacity: 1;
+    bottom: 0;
 }
 
 .project_left{
