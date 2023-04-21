@@ -60,11 +60,12 @@
     text-align: justify;
 }
 
-p > span{
+.about_text_greeting{
     display: inline-block;
     font-size: larger;
     height: auto;
     width: 90px;
+    color: var(--color-primary);
 }
 
 .about_buttons{

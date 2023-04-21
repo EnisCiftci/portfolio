@@ -2,8 +2,28 @@ import React from 'react';
 import "./about.css"
 import portrait from '../../assets/portrait.png'
 import cv from '../../assets/cv.pdf'
+import Typed from 'typed.js';
+
 
 export default function About() {
+
+    React.useEffect(() => {
+        const typed = new Typed("#typed", {
+            strings: ["Bonjour!","Hola!","Privet!","Salve!","Hallo!","Merhaba!","Ola!","Salaam!"],
+            typeSpeed: Math.floor(Math.random() * (120 - 70 + 1) + 70),
+            backSpeed: Math.floor(Math.random() * (120 - 70 + 1) + 70),
+            startDelay: 2000,
+            backDelay: 2000,
+            shuffle: true,
+            loop:true
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
+    }, []);
+
     return (
         <section id={"about"} className={"about_wrapper"} style={{transition: "all ease-in-out 2s"}}>
             <div className={"about_upper"}>
@@ -24,7 +44,8 @@ export default function About() {
                 </div>
                 <div className={"about_text"}>
                     <p>
-                        <span className={"accent"}>Merhaba!</span> My name is Enis and I'm a 21-year-old
+                        <span className={"about_text_greeting"}> <span id={"typed"}></span></span>
+                        My name is Enis and I'm a 21-year-old
                         student at Ruhr-Universität Bochum majoring in applied computer science.
                         <br></br>
                         My passion for coding started at a young age. I learned Java in school and fell in
@@ -37,7 +58,7 @@ export default function About() {
                         I'm always trying to further my knowledge and my skill set, and I'm
                         interested in where my love of coding may lead me in the future.
                         <br></br>
-                        Tip: Dark-Mode (DarkReader) might lead to *some* problems
+                        <span className={"accent"}>Tip:</span> Dark-Mode (DarkReader) might lead to *some* problems <span className={"accent"}>!!!</span>
                     </p>
                 </div>
             </div>
@@ -67,7 +88,6 @@ export default function About() {
                     <li><span className={"accent"}>&gt;</span>SQL</li>
                 </ul>
             </div>
-
         </section>
     )
 }
