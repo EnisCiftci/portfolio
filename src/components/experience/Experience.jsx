@@ -1,3 +1,4 @@
+import aldi from '../../assets/arbeitszeugnisAldi.pdf'
 import "./experience.css"
 
 export default function Experience() {
@@ -29,7 +30,7 @@ export default function Experience() {
                             <li>Writing routines to automate processes</li>
                             <li>Troubleshooting</li>
                             <li>Rollout of own software</li>
-                            <li><a href={"#"}>Testimonial</a></li>
+                            <li><a href={aldi} target={"_blank"}>Testimonial</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +48,7 @@ export default function Experience() {
                 </div>
 
                 <div className={"timeline_section section_left timeline_show"}>
-                    <div className={"timeline_left text-secondary"}>Seit 15.02.2023</div>
+                    <div className={"timeline_left text-secondary"}>Since 15.02.2023</div>
                     <div className={"timeline_content content_left"}>
                         <p className={"timeline_title"}>Working student @ <a href={"https://www.lachmann-rink.de/"} target={"_blank"}>Lachmann & Rink GmbH</a></p>
                         <ul className={"timeline_desc"}>

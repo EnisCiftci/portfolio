@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css"
 import portrait from '../../assets/portrait.png'
+import cv from '../../assets/cv.pdf'
 
 export default function About() {
     return (
@@ -19,7 +20,7 @@ export default function About() {
             <div className={"about_lower"}>
                 <div className={"about_buttons"}>
                     <a href={"#contact"} className={"about_btn about_btn-primary"}>Contact Me</a>
-                    <a href={"#"} className={"about_btn"}>Download CV</a>
+                    <a href={cv} className={"about_btn"} target={"_blank"}>Download CV</a>
                 </div>
                 <div className={"about_text"}>
                     <p>
