@@ -107,6 +107,56 @@ p > span{
 }
 
 /* =========================== MEDIA QUERIES =========================== */
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 785px){
+    .about_upper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
 
+    .about_greeting{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .about_portrait{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about_lower{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about_text{
+        width: 100%;
+    }
+
+    .about_buttons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .about_btn{
+        height: auto;
+        width: 35%;
+        padding: 20px 20px;
+    }
+
+    .about_wrapper{
+        justify-content: flex-start;
+        margin-bottom: 300px;
+    }
+
+    .about_skills{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 }

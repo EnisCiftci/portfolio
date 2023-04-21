@@ -150,8 +150,6 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 760px){
-    .app_wrapper{
-        width: var(--container-width-s);
-    }
+@media screen and (max-width: 785px){
+
 }

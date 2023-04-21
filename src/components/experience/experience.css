@@ -144,3 +144,42 @@
         width: 300px;
     }
 }
+
+@media screen and (max-width: 785px){
+    .experience_line{
+        left: 10%;
+    }
+
+    .timeline_section{
+
+    }
+
+    .content_left{
+        border-radius: 0 25px 25px 25px;
+    }
+
+    .section_left{
+        transform: translateX(calc(10% - 30px) );
+    }
+
+    .section_right{
+        transform: translateX(calc(10% - 30px) );
+    }
+
+    .timeline_left{
+        text-align: right;
+        margin-right: 25px;
+    }
+
+    .timeline_left:after{
+        display: none;
+    }
+
+    .timeline_right:after{
+        display: none;
+    }
+
+    .content_left .timeline_title{
+        text-align: right;
+    }
+}

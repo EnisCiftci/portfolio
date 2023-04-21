@@ -67,4 +67,45 @@
     gap: 0.6rem;
 }
 
+/* =========================== MEDIA QUERIES =========================== */
+@media screen and (max-width: 785px){
+    .project{
+        display: flex;
+        justify-content: center;
+    }
+
+    .project_content{
+        left: calc(50% - 100px);
+        width: 200px;
+    }
+
+    .image_overlay{
+        width: 300px;
+    }
+
+    .project_desc{
+        padding: 30px 10px;
+        background-color: rgba(31, 31, 56, 0.90);
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+
+    .content_left .project_tags{
+        justify-content: space-evenly;
+    }
+
+    .project_tags{
+        justify-content: space-evenly;
+    }
+
+    .project_tags .text-secondary{
+        color: black;
+        font-weight: bold;
+    }
+
+    .project_title{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
 

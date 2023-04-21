@@ -94,3 +94,14 @@ form{
     resize: none;
     color: var(--color-white);
 }
+
+/* =========================== MEDIA QUERIES =========================== */
+@media screen and (max-width: 785px){
+    .contact_wrapper{
+        flex-direction: column;
+    }
+
+    form{
+        align-items: center;
+    }
+}

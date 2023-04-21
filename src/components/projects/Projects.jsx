@@ -9,12 +9,12 @@ export default function Projects() {
             <h2 className={"title-left"}>Projects</h2>
             <div className={"project"}>
                 <div className={"image_overlay"}>
-                    <a className={"image_link"}>
+                    <a className={"image_link"} href={"https://github.com/EnisCiftci/TogethAR"} target={"_blank"}>
                         <img src={togethAR} alt={"ERR"} className={"project_img"}/>
                     </a>
                 </div>
                 <div className={"project_content"}>
-                    <a className={"project_title accent"}>TogethAR (Git-repo WIP)</a>
+                    <a className={"project_title accent"} href={"https://github.com/EnisCiftci/TogethAR"} target={"_blank"}>TogethAR (Git-repo WIP)</a>
                     <p className={"project_desc"}>iPad App for a collaborative AR-Session with collaborative tools and a lobby system</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>XCode</li>
