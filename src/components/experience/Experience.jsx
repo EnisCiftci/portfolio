@@ -1,4 +1,4 @@
-import aldi from '../../assets/arbeitszeugnisAldi.pdf'
+import aldi from '../../assets/testimonialAldi.pdf'
 import "./experience.css"
 
 export default function Experience() {
