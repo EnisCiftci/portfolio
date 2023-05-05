@@ -14,7 +14,7 @@ export default function Projects() {
                     </a>
                 </div>
                 <div className={"project_content"}>
-                    <a className={"project_title accent"} href={"https://github.com/EnisCiftci/TogethAR"} target={"_blank"}>TogethAR (Git-repo WIP)</a>
+                    <a className={"project_title accent"} href={"https://github.com/EnisCiftci/TogethAR"} target={"_blank"}>TogethAR</a>
                     <p className={"project_desc"}>iPad App for a collaborative AR-Session with collaborative tools and a lobby system</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>XCode</li>

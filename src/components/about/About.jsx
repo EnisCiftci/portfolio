@@ -8,6 +8,8 @@ import Typed from 'typed.js';
 export default function About() {
 
     React.useEffect(() => {
+        document.getElementById("about").style.height = ""+window.innerHeight
+
         const typed = new Typed("#typed", {
             strings: ["Bonjour!","Hola!","Privet!","Salve!","Hallo!","Merhaba!","Ola!","Salaam!"],
             typeSpeed: Math.floor(Math.random() * (120 - 70 + 1) + 70),
