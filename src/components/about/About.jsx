@@ -60,6 +60,7 @@ export default function About() {
                         I'm always trying to further my knowledge and my skill set, and I'm
                         interested in where my love of coding may lead me in the future.
                         <br></br>
+                        <span className={"accent"}>Tip:</span> Mobile might lead to *some* problems <span className={"accent"}>!!!</span>
                     </p>
                 </div>
             </div>
