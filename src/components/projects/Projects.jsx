@@ -27,13 +27,13 @@ export default function Projects() {
 
             <div className={"project project_left"}>
                 <div className={"project_content content_left"}>
-                    <p className={"project_title accent"}>Taqwa App (Currently WIP)</p>
-                    <p className={"project_desc"}>Islamic Companion-App that helps muslims with daily spiritual practices
-                                                    and helps them fulfill their duties.</p>
+                    <p className={"project_title accent"}>Bachelor Thesis</p>
+                    <p className={"project_desc"}>iOS App that utilizes generative AI or photogrammetry to generate usable and fast-developed 3D Models</p>
                     <ul className={"project_tags"}>
-                        <li className={"text-secondary"}>Kotlin</li>
-                        <li className={"text-secondary"}>Android Views</li>
-                        <li className={"text-secondary"}>API</li>
+                        <li className={"text-secondary"}>Swift</li>
+                        <li className={"text-secondary"}>ARKit</li>
+                        <li className={"text-secondary"}>OpenAI</li>
+                        <li className={"text-secondary"}>Server</li>
                     </ul>
                 </div>
                 <div className={"image_overlay"}>

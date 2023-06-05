@@ -70,6 +70,7 @@
 /* =========================== MEDIA QUERIES =========================== */
 @media screen and (max-width: 785px){
     .project{
+        height: 400px;
         display: flex;
         justify-content: center;
     }
@@ -84,7 +85,7 @@
     }
 
     .project_desc{
-        padding: 30px 10px;
+        opacity: 0;
         background-color: rgba(31, 31, 56, 0.90);
         box-shadow: 5px 5px 15px 5px rgba(0,0,0,0);
     }
@@ -94,17 +95,24 @@
     }
 
     .project_tags{
+        position: relative;
+        bottom: -65px;
         justify-content: space-evenly;
     }
 
     .project_tags .text-secondary{
-        color: black;
-        font-weight: bold;
+        color: white;
     }
 
     .project_title{
+        position: relative;
+        top: -65px;
         text-align: center;
         font-weight: bold;
+    }
+
+    .content_left .project_title{
+        text-align: center;
     }
 }
 

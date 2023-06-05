@@ -151,8 +151,8 @@
     }
 
     .about_wrapper{
+        height: 1200px;
         justify-content: flex-start;
-        margin-bottom: 300px;
     }
 
     .about_skills{
