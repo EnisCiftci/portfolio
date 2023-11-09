@@ -48,12 +48,12 @@ export default function Experience() {
                 </div>
 
                 <div className={"timeline_section section_left timeline_show"}>
-                    <div className={"timeline_left text-secondary"}>Since 15.02.2023</div>
+                    <div className={"timeline_left text-secondary"}>15.02.2023 - 30.08.2023</div>
                     <div className={"timeline_content content_left"}>
                         <p className={"timeline_title"}>Working student @ <a href={"https://www.lachmann-rink.de/"} target={"_blank"}>Lachmann & Rink GmbH</a></p>
                         <ul className={"timeline_desc"}>
                             <li>Fullstack Development with Angular</li>
-                            <li>Creating a Web-Admin-panel for the inhouse Framework</li>
+                            <li>Creating Web-Admin-panels for Frameworks</li>
                         </ul>
                     </div>
                 </div>
