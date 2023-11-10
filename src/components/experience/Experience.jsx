@@ -42,7 +42,6 @@ export default function Experience() {
                         <ul className={"timeline_desc"}>
                             <li>Honorary</li>
                             <li>Managing finances</li>
-                            <li>Managing the Website/Online-Shop</li>
                         </ul>
                     </div>
                 </div>

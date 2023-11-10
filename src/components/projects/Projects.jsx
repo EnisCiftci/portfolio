@@ -1,6 +1,7 @@
 import React from 'react';
 import togethAR from "../../assets/togethAR.jpeg"
 import wip from "../../assets/wip.png"
+import rub from "../../assets/RUB.png"
 import "./projects.css"
 
 export default function Projects() {
@@ -27,20 +28,37 @@ export default function Projects() {
 
             <div className={"project project_left"}>
                 <div className={"project_content content_left"}>
-                    <p className={"project_title accent"}>Bachelor Thesis</p>
-                    <p className={"project_desc"}>iOS App that utilizes generative AI or photogrammetry to generate usable and fast-developed 3D Models</p>
+                    <a className={"project_title accent"}>Bachelor Thesis</a>
+                    <p className={"project_desc"}>iOS App that utilizes generative AI and photogrammetry to generate usable and fast-developed 3D Models</p>
                     <ul className={"project_tags"}>
                         <li className={"text-secondary"}>Swift</li>
                         <li className={"text-secondary"}>ARKit</li>
                         <li className={"text-secondary"}>OpenAI</li>
-                        <li className={"text-secondary"}>Server</li>
+                        <li className={"text-secondary"}>ObjectCapture</li>
+                        <li className={"text-secondary"}>Two-Server-Architecture</li>
                     </ul>
                 </div>
                 <div className={"image_overlay"}>
-                    <img src={wip} alt={"ERR"} className={"project_img"}/>
+                    <img src={rub} alt={"ERR"} className={"project_img"}/>
                 </div>
-
             </div>
+
+            <div className={"project"}>
+                <div className={"image_overlay"}>
+                    <a className={"image_link"} target={"_blank"}>
+                        <img src={wip} alt={"ERR"} className={"project_img"}/>
+                    </a>
+                </div>
+                <div className={"project_content"}>
+                    <a className={"project_title accent"}>GeneticForecast</a>
+                    <p className={"project_desc"}>Website that helps people understand probabilities of genetic disorders that run in the family</p>
+                    <ul className={"project_tags"}>
+                        <li className={"text-secondary"}>React</li>
+                        <li className={"text-secondary"}>UI/UX</li>
+                    </ul>
+                </div>
+            </div>
+            
         </section>
     )
 }
