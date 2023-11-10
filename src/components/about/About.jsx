@@ -66,7 +66,7 @@ export default function About() {
             </div>
             <div className={"about_skills"}>
                 <ul>
-                    <li><span className={"accent"}>&gt;</span>FullStack</li>
+                    <li><span className={"accent"}>&gt;</span>Python</li>
                 </ul>
                 <ul>
                     <li><span className={"accent"}>&gt;</span>Java</li>

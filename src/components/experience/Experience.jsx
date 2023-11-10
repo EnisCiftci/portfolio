@@ -51,7 +51,7 @@ export default function Experience() {
                     <div className={"timeline_content content_left"}>
                         <p className={"timeline_title"}>Working student @ <a href={"https://www.lachmann-rink.de/"} target={"_blank"}>Lachmann & Rink GmbH</a></p>
                         <ul className={"timeline_desc"}>
-                            <li>Fullstack Development with Angular</li>
+                            <li>Fullstack Development with Angular and ASP.Net</li>
                             <li>Creating Web-Admin-panels for Frameworks</li>
                         </ul>
                     </div>
