@@ -53,7 +53,7 @@ export default function About() {
                         My passion for coding started at a young age. I learned Java in school and fell in
                         love with it right away, creating a range of projects for both school and for myself.
                         <br></br>
-                        Throughout my time at university, I've sharpened my programming skills and gained
+                        Throughout my university studies and various student job roles, I've honed my programming skills and gained
                         experience in a variety of programming languages while also developing and adopting good coding
                         ethics and practices.
                         <br></br>

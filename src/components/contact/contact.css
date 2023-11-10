@@ -7,7 +7,7 @@
 
 .contact_text{
     width:20rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .email_button{
@@ -38,7 +38,7 @@
 }
 
 .email_button_btn{
-    transition: var(--transition);.
+    transition: var(--transition);
 }
 
 .email_button_btn:hover{
